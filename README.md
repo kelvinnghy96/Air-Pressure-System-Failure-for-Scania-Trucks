@@ -11,35 +11,28 @@ Air pressure system failure for Scania trucks is a predictive maintenance use ca
 
 ![table1](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/pic/table1.png)
 
-
-	True Class
-	neg	pos
-Predicted Class	neg	TN	FP
-	pos	FN	TP
-Table 2
- 
-Figure 1
 This use case has been used in an industrial challenge at year 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA) event. In the past usage, top 3 scorer for minimum cost in that event is provided as reference in the table below.
-Rank	Score	Number of Type 1 faults (FN)	Number of Type 2 faults (FP)
-1	9920	542	9
-2	10900	490	12
-3	11480	398	15
-Table 3
- 
-1.1	 Dataset Description
+|Rank	|Score	|Number of Type 1 faults (FN)	|Number of Type 2 faults (FP)|
+|---|---|---|---|
+|1	|9920	|542	|9|
+|2	|10900	|490	|12|
+|3	|11480	|398	|15|
+
+
+## 1.1	 Dataset Description
 
 The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure system (APS) which generates pressurized air that are utilized in various functions in a truck, such as braking and gear changes. The data consists of a subset of all available data, selected by experts. 
 The dataset is split into train and test dataset and can be download from https://archive.ics.uci.edu/ml/machine-learning-databases/00421/. The training dataset contains 60000 examples in total in which 59000 belong to the negative class and 1000 for the positive class while test dataset contains 16000 examples. Both train and test dataset consist of 171 attributes. The attribute names of the data have been anonymized for proprietary reasons. The attributes are as class and other anonymized operational data.
 
-1.2	Python Library
+## 1.2	Python Library
 
 Library used in this assignment is list in the figure below.
  
 Figure 2
  
-1.3	Data Preprocessing
+## 1.3	Data Preprocessing
 
-1.3.1	Missing Values
+### 1.3.1	Missing Values
 In the dataset, null values or missing values are denoted by "na". Missing values in the dataset is calculated in percentage and visualize in the figure below.
  
 Figure 3
