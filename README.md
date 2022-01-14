@@ -1,24 +1,17 @@
 # Air-Pressure-System-Failure-for-Scania-Trucks
 Predict Failures and Minimize Costs based on Sensor Readings
 
-Abstract
+# Abstract
 
-This report contains 2 sections. Section 1 is about predictive maintenance for air pressure system failure for Scania trucks to predict failures and minimize costs based on sensor readings while Logistic Regression model is built to predict type of failure and calculate the failure cost. Source code and data for section 1 can be view and retrieve from https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks.git. 
-Section 2 is about stroke prediction in healthcare industry where 4 machine learning models approach which are Naïve Bayes, Logistic Regression, Random Forest, and Support Vector Machine (SVM) have been built to compare the accuracy among 4 models. Source code and data for section 2 can be view and retrieve from https://github.com/kelvinnghy96/Stroke-Prediction-with-Data-Science.git. 
+This repository is about predictive maintenance for air pressure system failure for Scania trucks to predict failures and minimize costs based on sensor readings while Logistic Regression model is built to predict type of failure and calculate the failure cost. Source code and data for this repository can be view and retrieve from https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks.git. 
 
- 
-Section 1
-Air Pressure System (APS) Failure for Scania Trucks
+# Air Pressure System (APS) Failure for Scania Trucks
 
 Air pressure system failure for Scania trucks is a predictive maintenance use case that predict the type of failure. Positive class failure consists of component failures for a specific component of the APS system while the negative class failure consists of truck with failures for components not related to the APS. Cost-metric of miss-classification is provided in the table below.
 
 ![table1](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/pic/table1.png)
 
-	True Class
-	neg	pos
-Predicted Class	neg	-	Cost_2 = 500
-	pos	Cost_1 = 10	-
-Table 1
+
 	True Class
 	neg	pos
 Predicted Class	neg	TN	FP
