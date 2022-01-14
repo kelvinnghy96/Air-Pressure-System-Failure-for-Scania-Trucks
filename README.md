@@ -37,12 +37,12 @@ In the dataset, null values or missing values are denoted by "na". Missing value
  
 ![figure3](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure3.png)
 
-	A threshold of 30% is set as the percentage of missing values allowed in each attribute, therefore, attributes that contain more than 30% of missing values is removed from the train and test dataset. There are 10 attributes contain missing values more than 30% and is listed in the table below.
+A threshold of 30% is set as the percentage of missing values allowed in each attribute, therefore, attributes that contain more than 30% of missing values is removed from the train and test dataset. There are 10 attributes contain missing values more than 30% and is listed in the table below.
 
 ![table4](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/table4.png)
 
 
-	The leftover 161 attributes with missing values are filled up with their respective attribute’s median value. The reason of filling up missing value with median value instead of mean value is because some of the attributes contain outlier value which may contain important information and cant be removed from the dataset, therefore, median value is more suitable than mean value in this situation. 
+The leftover 161 attributes with missing values are filled up with their respective attribute’s median value. The reason of filling up missing value with median value instead of mean value is because some of the attributes contain outlier value which may contain important information and cant be removed from the dataset, therefore, median value is more suitable than mean value in this situation. 
 	
 ### 1.3.2	Encoding Categorical Data
 As Logistic Regression model is used in this assignment, all categorical data need to be encoded into numeric value. The only categorical attribute in the dataset is the ‘class’ attribute. Instead of using the LabelEncoder() function from sklearn library, an alternative way is used which direct replace the class label of ‘neg’ with 0 and ‘pos’ with 1 by using replace() function which provide the same output as LabelEncoder() function.
