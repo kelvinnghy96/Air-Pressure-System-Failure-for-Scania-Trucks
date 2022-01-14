@@ -88,7 +88,8 @@ Random Forest model is built with feature selection to compare the accuracy and 
 
 ![figure9](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure9.png)
  
-	Random Forest confusion matrix is compared with Logistic Regression confusion matrix. Although the FP is higher slightly by 2.33% but FN is lower by 29.79% as shown in figure below.
+Random Forest confusion matrix is compared with Logistic Regression confusion matrix. Although the FP is higher slightly by 2.33% but FN is lower by 29.79% as shown in figure below.
+	
 ![figure10](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure10.png)
  
 Below figure will compare Precision, Recall and F1 Score between Random and Logistic Regression. Random Forest Precision, Recall and F1 Score is higher by 0.01, 0.04 and 0.02 respectively.
