@@ -82,3 +82,24 @@ Precision and recall is increase by 0.05 and 0.02 respectively after applied wit
 Total cost is reduced by 30,100 as shown in the figure below. Although the cost of 150,470 is far away larger than the cost reference provided by past use case, but it still clearly shown that total cost is reduced after feature selection is applied.
 ![figure8](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure8.png)
 
+
+### 1.4.2	Random Forest
+Random Forest model is built with feature selection to compare the accuracy and total cost with Logistic Regression with feature selection. Confusion matrix for Random Forest model with feature selection is as below figure.
+
+![figure9](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure9.png)
+ 
+	Random Forest confusion matrix is compared with Logistic Regression confusion matrix. Although the FP is higher slightly by 2.33% but FN is lower by 29.79% as shown in figure below.
+![figure10](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure10.png)
+ 
+Below figure will compare Precision, Recall and F1 Score between Random and Logistic Regression. Random Forest Precision, Recall and F1 Score is higher by 0.01, 0.04 and 0.02 respectively.
+
+![figure11](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure11.png)
+
+Below figure will compare total cost and model accuracy between Random and Logistic Regression. Random Forest total cost is lower than Logistic Regression total cost by 6,930 while Random Forest model accuracy is higher than Logistic Regression model accuracy by 0.0438%
+
+![figure12](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure12.png)
+![figure13](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/figure13.png)
+
+1.4.3	Summary
+After perform feature selection the total cost of the model is reduced while the model accuracy increase. Logistic Regression with feature selection have a better model accuracy and total compare to Logistic Regression without feature selection but Random Forest with feature selection is the champion model in this assignment with a total cost of 19,570 and model accuracy of 97.8750%.
+
