@@ -1,3 +1,20 @@
+# Table of Content
+- [Air-Pressure-System-Failure-for-Scania-Trucks](#air-pressure-system-failure-for-scania-trucks)
+- [Abstract](#abstract)
+- [Air Pressure System (APS) Failure for Scania Trucks](#air-pressure-system-aps-failure-for-scania-trucks)
+  - [1.1	 Dataset Description](#11-dataset-description)
+  - [1.2	Python Library](#12python-library)
+  - [1.3	Data Preprocessing](#13data-preprocessing)
+    - [1.3.1	Missing Values](#131missing-values)
+    - [1.3.2	Encoding Categorical Data](#132encoding-categorical-data)
+    - [1.3.3	Feature Scaling with Standardization](#133feature-scaling-with-standardization)
+    - [1.3.4	Class Balancing with Synthetic Minority Oversampling Technique (SMOTE)](#134class-balancing-with-synthetic-minority-oversampling-technique-smote)
+    - [1.3.5	Test Data Preprocessing](#135test-data-preprocessing)
+  - [1.4	Model Development](#14model-development)
+    - [1.4.1	Logistic Regression](#141logistic-regression)
+    - [1.4.2	Random Forest](#142random-forest)
+    - [1.4.3	Summary](#143summary)
+
 # Air-Pressure-System-Failure-for-Scania-Trucks
 Predict Failures and Minimize Costs based on Sensor Readings
 
