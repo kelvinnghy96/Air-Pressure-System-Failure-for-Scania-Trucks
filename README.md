@@ -1,4 +1,5 @@
 # Table of Content
+- [Installation Guide](#installation-guide)
 - [Abstract](#abstract)
 - [Air Pressure System (APS) Failure for Scania Trucks](#air-pressure-system-aps-failure-for-scania-trucks)
   - [1.1	 Dataset Description](#11-dataset-description)
