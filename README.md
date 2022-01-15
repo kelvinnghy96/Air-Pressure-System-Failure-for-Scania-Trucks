@@ -27,7 +27,9 @@ This repository is about predictive maintenance for air pressure system failure 
 
 Air pressure system failure for Scania trucks is a predictive maintenance use case that predict the type of failure. Positive class failure consists of component failures for a specific component of the APS system while the negative class failure consists of truck with failures for components not related to the APS. Cost-metric of miss-classification is provided in the table below.
 
-![table1](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/table1.png)
+<p align="center">
+  <a href="#"><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/table1.png" /></a>
+</p>
 
 ![table2](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/src/image/table2.png)
 
