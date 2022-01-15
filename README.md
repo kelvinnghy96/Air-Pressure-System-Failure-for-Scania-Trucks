@@ -14,6 +14,7 @@
     - [1.4.1	Logistic Regression](#141logistic-regression)
     - [1.4.2	Random Forest](#142random-forest)
     - [1.4.3	Summary](#143summary)
+- [License](#license)
 
 # Air-Pressure-System-Failure-for-Scania-Trucks
 Predict Failures and Minimize Costs based on Sensor Readings
