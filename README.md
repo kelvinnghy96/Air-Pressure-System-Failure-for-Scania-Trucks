@@ -39,7 +39,7 @@ Air pressure system failure for Scania trucks is a predictive maintenance use ca
 This use case has been used in an industrial challenge at year 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA) event. In the past usage, top 3 scorer for minimum cost in that event is provided as reference in the table below.
 
 <p align="center">
-  <a href="#" onclick=return false;><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure1.png" /></a>
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure1.png" /></a>
 </p>
 
 
@@ -51,20 +51,25 @@ The dataset is split into train and test dataset and can be download from https:
 ## 1.2	Python Library
 
 Library used in this assignment is list in the figure below.
- 
-![figure2](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure2.png)
+
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure2.png" /></a>
+</p>
  
 ## 1.3	Data Preprocessing
 
 ### 1.3.1	Missing Values
 In the dataset, null values or missing values are denoted by "na". Missing values in the dataset is calculated in percentage and visualize in the figure below.
- 
-![figure3](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure3.png)
+
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure3.png" /></a>
+</p>
 
 A threshold of 30% is set as the percentage of missing values allowed in each attribute, therefore, attributes that contain more than 30% of missing values is removed from the train and test dataset. There are 10 attributes contain missing values more than 30% and is listed in the table below.
 
-![table4](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/table4.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/table4.png" /></a>
+</p>
 
 The leftover 161 attributes with missing values are filled up with their respective attribute’s median value. The reason of filling up missing value with median value instead of mean value is because some of the attributes contain outlier value which may contain important information and cant be removed from the dataset, therefore, median value is more suitable than mean value in this situation. 
 	
@@ -77,14 +82,16 @@ Standardization is use in the feature scaling of this assignment. For every feat
 ### 1.3.4	Class Balancing with Synthetic Minority Oversampling Technique (SMOTE)
 SMOTE a statistical technique to generate new instances from existing minority cases to increase the number of cases in data in a balanced way. The target variable, ‘class’ contain imbalance data of ‘pos’ and ‘neg’ values which is 1,000 and 59,000 respectively while under SMOTE technique, ‘pos’ value is oversample to 59,000 rows of data to balance with the ‘neg’ value as shown in the figure below. Balanced data provide better accuracy and prevent model from penalizing minority samples.
 
-![figure4](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure4.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure4.png" /></a>
+</p>
 
 ### 1.3.5	Test Data Preprocessing
 Apply the same preprocess model from train dataset to test dataset except SMOTE technique. SMOTE technique will only be applied in the train dataset. The data preprocessing steps applied in test dataset is list in below table.
 
-![table5](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/table5.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/table5.png" /></a>
+</p>
  
 ## 1.4	Model Development
 
@@ -92,38 +99,51 @@ Apply the same preprocess model from train dataset to test dataset except SMOTE 
 Logistic Regression model is used to predict type of failure in this assignment. Logistic Regression model is train before and after feature selection to compare the confusion matrix, model accuracy and the total cost.
 False positive and false negative number in Logistic Regression model is dropped by 20% and 17.54% respectively after applied with feature selection as shown in the figure below.
 
-![figure5](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure5.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure5.png" /></a>
+</p>
 
 Model accuracy is increase by 0.4375% after applied with feature selection as shown in the figure below.
-![figure6](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure6.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure6.png" /></a>
+</p>
  
 Precision and recall is increase by 0.05 and 0.02 respectively after applied with feature selection while F1 Score is increase by 0.05 as shown in the figure below.
-![figure7](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure7.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure7.png" /></a>
+</p>
 
 Total cost is reduced by 30,100 as shown in the figure below. Although the cost of 150,470 is far away larger than the cost reference provided by past use case, but it still clearly shown that total cost is reduced after feature selection is applied.
-![figure8](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure8.png)
-
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure8.png" /></a>
+</p>
 
 ### 1.4.2	Random Forest
 Random Forest model is built with feature selection to compare the accuracy and total cost with Logistic Regression with feature selection. Confusion matrix for Random Forest model with feature selection is as below figure.
 
-![figure9](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure9.png)
- 
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure9.png" /></a>
+</p> 
+
 Random Forest confusion matrix is compared with Logistic Regression confusion matrix. Although the FP is higher slightly by 2.33% but FN is lower by 29.79% as shown in figure below.
 	
-![figure10](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure10.png)
- 
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure10.png" /></a>
+</p> 
+
 Below figure will compare Precision, Recall and F1 Score between Random and Logistic Regression. Random Forest Precision, Recall and F1 Score is higher by 0.01, 0.04 and 0.02 respectively.
 
-![figure11](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure11.png)
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure11.png" /></a>
+</p>
 
 Below figure will compare total cost and model accuracy between Random and Logistic Regression. Random Forest total cost is lower than Logistic Regression total cost by 6,930 while Random Forest model accuracy is higher than Logistic Regression model accuracy by 0.0438%
 
-![figure12](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure12.png)
-![figure13](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure13.png)
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure12.png" /></a>
+<p align="center">
+  <a href=#><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/images/figure13.png" /></a>
+</p>
 
 ### 1.4.3	Summary
 After perform feature selection the total cost of the model is reduced while the model accuracy increase. Logistic Regression with feature selection have a better model accuracy and total compare to Logistic Regression without feature selection but Random Forest with feature selection is the champion model in this assignment with a total cost of 19,570 and model accuracy of 97.8750%.
