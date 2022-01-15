@@ -16,6 +16,11 @@
     - [1.4.3	Summary](#143summary)
 - [License](#license)
 
+# Installation Guide
+1. Click [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/raw/main/APS%20Failure%20for%20Scania%20Trucks.7z) to download Air Pressure System Failure for Scania Trucks ZIP file.
+2. Extract downloaded ZIP file.
+3. Run the source code in the ```code``` folder to see the result.
+
 # Air-Pressure-System-Failure-for-Scania-Trucks
 Predict Failures and Minimize Costs based on Sensor Readings
 
