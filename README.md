@@ -23,7 +23,7 @@
 
 # Abstract
 
-This repository is about predictive maintenance for air pressure system failure for Scania trucks to predict failures and minimize costs based on sensor readings while Logistic Regression model is built to predict type of failure and calculate the failure cost. Source code and data for this repository can be view and retrieve from [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks.git). 
+This repository is about predictive maintenance for air pressure system failure for Scania trucks to predict failures and minimize costs based on sensor readings while Logistic Regression model is built to predict type of failure and calculate the failure cost. Source code and data for this repository can be view and retrieve from [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/raw/main/APS%20Failure%20for%20Scania%20Trucks.7z). 
 
 # Air Pressure System (APS) Failure for Scania Trucks
 
