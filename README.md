@@ -17,13 +17,13 @@
 - [License](#license)
 
 # Installation Guide
-1. Click [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/raw/main/APS%20Failure%20for%20Scania%20Trucks.7z) to download ```Air Pressure System Failure for Scania Trucks``` ZIP file.
+1. Click [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/archive/refs/heads/main.zip) to download ```Air Pressure System Failure for Scania Trucks``` ZIP file.
 2. Extract downloaded ZIP file.
 3. Run the source code in the ```code``` folder to see the result.
 
 # Abstract
 
-This repository is about predictive maintenance for air pressure system failure for Scania trucks to predict failures and minimize costs based on sensor readings while Logistic Regression model is built to predict type of failure and calculate the failure cost. Source code and data for this repository can be view and retrieve from [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/raw/main/APS%20Failure%20for%20Scania%20Trucks.7z). 
+This repository is about predictive maintenance for air pressure system failure for Scania trucks to predict failures and minimize costs based on sensor readings while Logistic Regression model is built to predict type of failure and calculate the failure cost. Source code and data for this repository can be view and retrieve from [here](https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/archive/refs/heads/main.zip). 
 
 # Air Pressure System (APS) Failure for Scania Trucks
 
