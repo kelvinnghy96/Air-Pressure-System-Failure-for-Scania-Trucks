@@ -58,11 +58,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
      Predicted class |      True class       |
                      |    pos    |    neg    |
      -----------------------------------------
-      pos            |     -   tp  |  Cost_1 fn  |
+      pos            |     -   tp  |  Cost_1 fp  |
      -----------------------------------------
-      neg            |  Cost_2  fp |     -  tn   |
+      neg            |  Cost_2  fn |     -  tn   |
      -----------------------------------------
-     Cost_1 = 10 and cost_2 = 500   fp*500 +fn*10
+     Cost_1 = 10 and cost_2 = 500   fp*10 +fn*500
 
      The total cost of a prediction model the sum of "Cost_1" 
      multiplied by the number of Instances with type 1 failure 
