@@ -8,7 +8,7 @@
   - [Air Pressure System (APS) Failure for Scania Trucks](#air-pressure-system-aps-failure-for-scania-trucks)
     - [1.1	 Dataset Description](#11-dataset-description)
     - [1.2	Python Library](#12python-library)
-      - [1.3	Data Preprocessing](#13data-preprocessing)
+    - [1.3	Data Preprocessing](#13data-preprocessing)
       - [1.3.1	Missing Values](#131missing-values)
       - [1.3.2	Encoding Categorical Data](#132encoding-categorical-data)
       - [1.3.3	Feature Scaling with Standardization](#133feature-scaling-with-standardization)
@@ -61,7 +61,7 @@ Library used in this assignment is list in the figure below.
   <a href=##><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/image/figure2.png" /></a>
 </p>
  
-#### 1.3	Data Preprocessing
+### 1.3	Data Preprocessing
 
 #### 1.3.1	Missing Values
 In the dataset, null values or missing values are denoted by "na". Missing values in the dataset is calculated in percentage and visualize in the figure below.
