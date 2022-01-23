@@ -41,12 +41,15 @@ Air pressure system failure for Scania trucks is a predictive maintenance use ca
   <a href=##><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/image/table2.png" /></a>
 </p>
 
-This use case has been used in an industrial challenge at year 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA) event. In the past usage, top 3 scorer for minimum cost in that event is provided as reference in the table below.
-
 <p align="center">
   <a href=##><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/image/figure1.png" /></a>
 </p>
 
+This use case has been used in an industrial challenge at year 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA) event. In the past usage, top 3 scorer for minimum cost in that event is provided as reference in the table below.
+
+<p align="center">
+  <a href=##><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/image/table3.png" /></a>
+</p>
 
 ### 1.1	 Dataset Description
 
