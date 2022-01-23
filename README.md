@@ -61,7 +61,7 @@ Library used in this assignment is list in the figure below.
 <p align="center">
   <a href=##><img src="https://github.com/kelvinnghy96/Air-Pressure-System-Failure-for-Scania-Trucks/blob/main/public/image/figure2.png" /></a>
 </p>
- 
+
 ### 1.3	Data Preprocessing
 
 #### 1.3.1	Missing Values
